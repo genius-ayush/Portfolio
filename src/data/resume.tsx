@@ -33,8 +33,8 @@ export const DATA = {
     // "Kafka",
     // "Redis",
     // "GraphQL",
-    // "Nginx",
-    // "AWS",
+    "Nginx",
+    "AWS",
     // "CI/CD",
     // "Grafana",
     // "Prometheus",
@@ -107,11 +107,11 @@ export const DATA = {
       badges: [],
       href: "https://squaredlabs.io/",
       location: "Remote",
-      title: "Internship",
+      title: "Full Stack developer",
       logoUrl: "/Intern.png",
       start: "July 2024",
       end: "Present",
-      description:"Designed and developed a responsive, visually consistent landing page using React.js and Tailwind CSS, optimizing components for performance and reusability, and ensuring a smooth, error-free launch through thorough debugging and collaboration with the design team.",
+      description:"Designed and developed a responsive, visually consistent landing page using Next.js, React.js, TypeScript, and Tailwind CSS, optimizing components for performance and reusability. Expanded the project into a full-stack application by integrating a Node.js/Express backend, implementing Zod for schema validation, and utilizing ShadCN UI for a modern, accessible UI. Ensured a smooth, error-free launch through thorough debugging, API optimizations, and collaboration with the design team.",
     },
   ],
   education: [
@@ -134,32 +134,40 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "AI Landing Page",
-      href: "https://alex-gilt-one.vercel.app/",
-      dates: "September 2024",
+      title: "mizrebel.com",
+      href: "mizrebel.com",
+      dates: "Feb 2025",
       active: true,
       description:
-        "Developed a stunning landing page, built with Next.js, React.js, Tailwind CSS, and Framer Motion, offers a highly responsive and visually engaging experience. Designed with a strong focus on aesthetics and fluid animations, it provides a seamless user interface across all devices, ensuring a captivating first impression for visitors.",
+        "Built Mizrebel, a full-stack e-commerce platform for a fashion brand using React.js, Next.js, and Tailwind CSS for a sleek UI. Powered by a Node.js/Express backend with PostgreSQL & Prisma for efficient data handling. Integrated AWS (S3, EC2, CloudFront) for scalable hosting and storage. Enhanced UX with ShadCN UI & Framer Motion and ensured type safety with TypeScript & Zod.",
       technologies: [
-        "Next.js",
-        "ReactJS",
+        "React.js",
+        "Express.js",
         "Typescript",
+        "Postgress",
+        "Prisma",
+        "Zod" , 
+        "AWS"  ,
+        "S3" , 
+        "EC2" , 
+        "CloudeFront" ,
         "TailwindCSS",
-        "Shadcn UI",
+        "SchadCn",
+        "FramerMotion",
       ],
       links: [
         {
           type: "Website",
-          href: "https://alex-gilt-one.vercel.app/",
+          href: "Mizrebel.com",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/genius-ayush/Alex",
+          href: "https://github.com/genius-ayush/mizrebel",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/project1.png",
+      image: "/mizrebel.png",
       video: "",
     },
     {
@@ -192,6 +200,66 @@ export const DATA = {
       image: "/project2.png",
       video: "",
     },
+    {
+      title: "Quantstruct Landing Page",
+      href: "https://quantstructt.vercel.app/",
+      dates: "December 2024",
+      active: true,
+      description:
+        "Developed a stunning landing page, built with Next.js, React.js, Tailwind CSS,SchadCn and Framer Motion, offers a highly responsive and visually engaging experience. Designed with a strong focus on aesthetics and fluid animations, it provides a seamless user interface across all devices, ensuring a captivating first impression for visitors.",
+      technologies: [
+        "Next.js",
+        "ReactJS",
+        "Typescript",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Magic UI"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://quantstructt.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/genius-ayush/Quantstruct",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/quantstruct.png",
+      video: "",
+    },
+    {
+      title: "AI Landing Page",
+      href: "https://alex-gilt-one.vercel.app/",
+      dates: "September 2024",
+      active: true,
+      description:
+        "Developed a stunning landing page, built with Next.js, React.js, Tailwind CSS, and Framer Motion, offers a highly responsive and visually engaging experience. Designed with a strong focus on aesthetics and fluid animations, it provides a seamless user interface across all devices, ensuring a captivating first impression for visitors.",
+      technologies: [
+        "Next.js",
+        "ReactJS",
+        "Typescript",
+        "TailwindCSS",
+        "Shadcn UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://alex-gilt-one.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/genius-ayush/Alex",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/project1.png",
+      video: "",
+    },
+    
     {
       title: "CodeForge",
       href: "https://codeforge-delta.vercel.app/",
