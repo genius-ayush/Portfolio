@@ -37,7 +37,7 @@ export default function Page() {
               </Avatar>
             </BlurFade>
           </div>
-        </div>
+        </div> 
       </section>
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>

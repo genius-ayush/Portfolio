@@ -134,8 +134,41 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "CareerPitch",
+      href: "https://career-pitch.vercel.app/",
+      dates: "march 2025",
+      active: true,
+      description:
+        "Built Mizrebel, a full-stack e-commerce platform for a fashion brand using React.js, Next.js, and Tailwind CSS for a sleek UI. Powered by a Node.js/Express backend with PostgreSQL & Prisma for efficient data handling. Integrated AWS (S3, EC2, CloudFront) for scalable hosting and storage. Enhanced UX with ShadCN UI & Framer Motion and ensured type safety with TypeScript & Zod.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "Postgress",
+        "Prisma",
+        "Zod" , 
+        "NextAuth"  ,
+        "TailwindCSS",
+        "SchadCn",
+        "FramerMotion",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://career-pitch.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/genius-ayush/careerPitch",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/careerPitch.png",
+      video: "",
+    },
+    {
       title: "mizrebel.com",
-      href: "mizrebel.com",
+      href: "http://www.mizrebel.com",
       dates: "Feb 2025",
       active: true,
       description:
