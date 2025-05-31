@@ -139,7 +139,7 @@ export const DATA = {
       dates: "march 2025",
       active: true,
       description:
-        "Built Mizrebel, a full-stack e-commerce platform for a fashion brand using React.js, Next.js, and Tailwind CSS for a sleek UI. Powered by a Node.js/Express backend with PostgreSQL & Prisma for efficient data handling. Integrated AWS (S3, EC2, CloudFront) for scalable hosting and storage. Enhanced UX with ShadCN UI & Framer Motion and ensured type safety with TypeScript & Zod.",
+        "CareerPitch is a full-stack web application that helps job seekers generate personalized, professional email and LinkedIn messages tailored to their skills, desired roles, and communication style. Leveraging the power of AI, CareerPitch simplifies the process of reaching out to recruiters and potential referrers with effective, ready-to-send messages.",
       technologies: [
         "Next.js",
         "Typescript",
